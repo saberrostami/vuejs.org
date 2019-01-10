@@ -4,9 +4,9 @@ type: guide
 order: 11
 ---
 
-## Base Example
+##<div dir="rtl">مثال پایه</div>
 
-Here's an example of a Vue component:
+<div dir="rtl">یک مثال ساده از کامپوننت ها را می توانید در زیر مشاهده کنید:</div>
 
 ``` js
 // Define a new component called button-counter
@@ -20,7 +20,8 @@ Vue.component('button-counter', {
 })
 ```
 
-Components are reusable Vue instances with a name: in this case, `<button-counter>`. We can use this component as a custom element inside a root Vue instance created with `new Vue`:
+<div dir="rtl">کامپوننت ها در ویو را می توانیم توسط یک نام (در مثال زیر `<button-counter>` )  مجددا استفاده کنیم. ما میتوانیم از این کامپوننت به عنوان عنصر دلخواه داخل یک نمونه Vue ریشه که توسط `new Vue` ایجاد می شود استفاده کنیم.</div>
+
 
 ```html
 <div id="components-demo">
