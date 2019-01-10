@@ -52,6 +52,7 @@ new Vue({ el: '#components-demo' })
 
 Since components are reusable Vue instances, they accept the same options as `new Vue`, such as `data`, `computed`, `watch`, `methods`, and lifecycle hooks. The only exceptions are a few root-specific options like `el`.
 
+
 ## Reusing Components
 
 Components can be reused as many times as you want:
